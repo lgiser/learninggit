@@ -1,1 +1,3 @@
-git is a controls version system
+git is a controls version system.
+
+git use branch master 
