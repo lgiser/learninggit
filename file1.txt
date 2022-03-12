@@ -11,3 +11,5 @@ git use branch master
 4.git reflog 查看历史的 commitid 重返未来
 
 5.git checkout -- <file>... 放弃工作区中的修改
+
+搭档
