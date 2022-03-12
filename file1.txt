@@ -2,7 +2,8 @@ git is a controls version system.
 
 git use branch master 
 
-1.git restore 放弃文件修改
+1.git restore 放弃文件修改（没有添加到暂存区时，即没有add）
+  git restore --staged file.txt  放弃文件修改（添加到暂存区后，即add之后）
 
 2.git status 查看git状态
 
@@ -13,3 +14,9 @@ git use branch master
 5.git checkout -- <file>... 放弃工作区中的修改
 
 搭档
+
+on stage
+
+again update on workspace
+
+add something to stage
