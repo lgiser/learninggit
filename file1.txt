@@ -1,3 +1,7 @@
 git is a controls version system.
 
 git use branch master 
+
+1.git restore 放弃文件修改
+
+2.git status 查看git状态
