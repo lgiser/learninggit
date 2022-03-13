@@ -32,15 +32,27 @@ add something to stage
 
 分支管理
 1.创建分支
-	git checkout -b dev 
-
+	git checkout -b dev  or git switch -c dev
+	
 	相当于以下两条命令
 	git branch dev
 	git checkout dev
 
 	Switched to a new branch 'dev'
 
+2. 查看分支
+	git branch
+	
+3.切换分支
+  git switch dev or git checkout dev
+	
+4.合并分支，将指定分支合并到当前分支中
+  git merge dev	
 
+5.删除分支
+  git branch -d dev
+	
+	
 
 
 
