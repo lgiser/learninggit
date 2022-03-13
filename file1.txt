@@ -30,3 +30,18 @@ add something to stage
 3. git push -u origin master
 4. git remote rm origin
 
+分支管理
+1.创建分支
+	git checkout -b dev 
+
+	相当于以下两条命令
+	git branch dev
+	git checkout dev
+
+	Switched to a new branch 'dev'
+
+
+
+
+
+
