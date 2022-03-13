@@ -53,6 +53,9 @@ add something to stage
   git branch -d dev
 	
 	
+solve conflict A
+	
+	
 
 
 
