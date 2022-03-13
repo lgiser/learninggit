@@ -2,8 +2,8 @@ git is a controls version system.
 
 git use branch master 
 
-1.git restore 放弃文件修改（没有添加到暂存区时，即没有add）
-  git restore --staged file.txt  放弃文件修改（添加到暂存区后，即add之后）
+1.git restore 放弃工作区中的文件修改（没有添加到暂存区时，即没有add）
+  git restore --staged file.txt  放弃暂存区中的文件修改（添加到暂存区后，即add之后）
 
 2.git status 查看git状态
 
@@ -13,10 +13,20 @@ git use branch master
 
 5.git checkout -- <file>... 放弃工作区中的修改
 
-搭档
+删除文件
+可以手动删除文件，然后再使用命令 git rm filename or git add filename
+git rm file.txt
+找回删除的文件，只有被提交的文件才能被找回
+git checkout -- file.txt
 
-on stage
+
 
 again update on workspace
-
 add something to stage
+
+远程仓库
+1. git remote add origin https://
+2. git -v
+3. git push -u origin master
+4. git remote rm origin
+
