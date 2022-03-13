@@ -52,7 +52,9 @@ add something to stage
 5.删除分支
   git branch -d dev
 	
-	solve conflict B
+	
+solve conflict A
+	
 
 
 
